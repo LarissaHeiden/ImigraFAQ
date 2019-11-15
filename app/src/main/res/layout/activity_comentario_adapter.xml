@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:scrollbarThumbHorizontal="@color/common_google_signin_btn_text_dark_default"
+        android:scrollbarThumbVertical="@color/common_google_signin_btn_text_dark_default">
+
+
+        <TextView
+            android:id="@+id/txtComentario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/lato_black"
+            android:scrollbarThumbHorizontal="@color/common_google_signin_btn_text_dark_default"
+            android:scrollbarThumbVertical="@color/common_google_signin_btn_text_dark_default"
+            android:text="TextView"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:fontFamily="@font/lato"
+            android:scrollbarThumbHorizontal="@color/common_google_signin_btn_text_dark_default"
+            android:scrollbarThumbVertical="@color/common_google_signin_btn_text_dark_default"
+            android:text="TextView"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_default"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_default" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">IMIGRAFAQ</string>
+
+    <string-array name="languageArray">
+        <item>Português</item>
+        <item>Creole</item>
+    </string-array>
+
+</resources>
